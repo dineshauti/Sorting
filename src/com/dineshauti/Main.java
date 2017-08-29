@@ -8,9 +8,11 @@ public class Main {
 
         InsertionSort is = new InsertionSort();
         SelectionSort ss = new SelectionSort();
+        BubbleSort bs = new BubbleSort();
 
-        //is.sort(arr);
-        ss.sort(arr);
+        //is.sort(arr); 
+        //ss.sort(arr);
+        bs.sort(arr);
 
         for(int i=0; i<arr.length; i++) {
             System.out.println(arr[i]);
