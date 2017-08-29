@@ -10,7 +10,7 @@ public class Main {
         SelectionSort ss = new SelectionSort();
         BubbleSort bs = new BubbleSort();
 
-        //is.sort(arr); 
+        //is.sort(arr);
         //ss.sort(arr);
         bs.sort(arr);
 
